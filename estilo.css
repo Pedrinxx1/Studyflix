@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin-top: -909px;
+  margin: 0%;
+}
+
+.logo {
+  width: 55px;
+  height: 40px;
+  padding-left: 60px;
+}
+
+#name {
+  font-family: inherit;
+  color: #a80000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#imagem {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  opacity: 0.3;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2));
+}
+
+#cadaster {
+  color: #c7c7c7;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  background-color:rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  color:white;
+  margin-bottom: 10px;
+  border: 0px solid;
+  width: 200px;
+  height: 30px;
+}
+
+
+h2 {
+  color: white;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50px;
+}
+
+button{
+  background-color: #a10000;
+  color: white;
+  border-radius: 10px;
+  border: 0px solid;
+  width: 150px;
+  height: 20px;
+}

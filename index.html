@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PLAYFLIX</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" type="imagex/png" href="https://static.wixstatic.com/media/7b8f70_be75a5bfe1ae42e39af978410f60521c~mv2.png/v1/fill/w_71,h_86,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/neoplay-%5B26-06-22%5D%5B10-58-27%5D.png">
+</head>
+
+<body>
+  <img id="imagem" src="https://www.amofilmeseseries.com/wp-content/uploads/2023/06/Filmes.jpg" alt="Sua Imagem">
+
+  <div class="header" id="conteudo">
+    <table>
+      <tr>
+        <td><img class="logo"
+            src="https://static.wixstatic.com/media/7b8f70_be75a5bfe1ae42e39af978410f60521c~mv2.png/v1/fill/w_71,h_86,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/neoplay-%5B26-06-22%5D%5B10-58-27%5D.png">
+        </td>
+        <td>
+          <p id="name">PLAYFLIX</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div id="login">
+    <center>
+      <section>
+        <form action="page.html" method="get" onsubmit="redirecionarParaPage()">
+          <br />
+          <h2 id="jh">ENTRAR</h2>
+          <input type="text" placeholder="E-mail" required>
+          <br />
+          <input type="password" placeholder="Senha" required>
+          <br />
+          <button type="submit">Entrar</button>
+        </form>
+        <br>
+        <p id="cadaster">Novo por aqui? <a href="cadaster.html">Assine agora</a></p>
+      </section>
+    </center>
+  </div>
+
+  <script>
+    function redirecionarParaPage() {
+      // Simular redirecionamento (pode ser substituído pelo código real, se necessário)
+      console.log("Redirecionando para page.html...");
+      return false; // Isso impede que o formulário seja enviado normalmente
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin: 0%;
+  margin-top: -50px;
+  outline: 0%;
+  padding: 0%;
+}
+
+.logo {
+  width: 90px;
+  height: 70px;
+  opacity: 0.9;
+}
+
+td {
+  padding: 10px;
+}
+
+#imagem {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+#name {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50px;
+}
+
+#enviar {
+  text-align: center;
+  color: white;
+  background-color: #8a0000;
+  width: 230px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 0px solid rgba(0, 0, 0, 0);
+}
+
+#senha {
+  background-color: #5c5c5c;
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+.p {
+  font-style: Georgia, serif;
+  font-size: 20px;
+  color: white;
+}
+
+#email {
+  background-color: #5c5c5c;
+  width: 153px;
+  height: 25px;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+#cadaster {
+  color: #c7c7c7;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+input {
+  background-color:rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  color:white;
+  margin-bottom: 10px;
+  border: 0px solid;
+  width: 200px;
+  height: 30px;
+}
+
+button{
+  background-color: #a10000;
+  color: white;
+  border-radius: 10px;
+  border: 0px solid;
+  width: 150px;
+  height: 20px;
+}

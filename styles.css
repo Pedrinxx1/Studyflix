@@ -40,7 +40,7 @@ body {
 
 #name {
   font-family: inherit;
-  color: #d7b2cf;
+  color: #0fd096;
   font-size: 25px;
   font-weight: bold;
   opacity: 0.9;
@@ -51,7 +51,7 @@ body {
   width: 100%;
   height: 105%;
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0.6;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(150, 0, 0, 1)) ;
@@ -69,18 +69,18 @@ body {
 }
 
 #nameimg {
-  font-family: unset;
+  font-family: brush script;
   font-weight: bolder;
-  font-size: 32px;
+  font-size: 37px;
   position: absolute;
-  width: 650px;
+  width: 670px;
   padding-left: 80px;
-  padding-top: 24%;
-  color: #290029;
+  padding-top: 23%;
+  color: #f9f0f4;
 }
 
 #background {
-  background: linear-gradient(to bottom, rgb(120, 0, 255, 0.3), transparent);
+  background: linear-gradient(to bottom, #190740dd, transparent);
   width: 100%;
   height: 100px;
 }
@@ -117,7 +117,7 @@ body {
 }
 
 #info {
-  background-color: rgb(61, 0, 102, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   color: #ffffff;
   margin-left: 10px;
   border-radius: 15px;
